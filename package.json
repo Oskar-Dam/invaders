@@ -1,0 +1,24 @@
+{
+  "name": "nebula-strike-last-defender",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "NEBULA STRIKE - LAST DEFENDER: vertical scrolling shoot em up built with Three.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node tests/logic.test.mjs",
+    "test:e2e": "node tests/e2e.mjs",
+    "test:boss": "node tests/e2e-boss.mjs",
+    "test:touch": "node tests/e2e-touch.mjs",
+    "test:all": "npm test && npm run test:e2e && npm run test:boss && npm run test:touch"
+  },
+  "dependencies": {
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.17.0",
+    "vite": "^8.3.8"
+  }
+}
